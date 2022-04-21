@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "slug": {
+      "type": "String",
+      "length": 255,
+      "index": true
+    },
+    "title": {
+      "type": "String",
+      "length": 255,
+      "index": true,
+      "required": true
+    }
+  },
+  "feature": {
+    "createdAt": true,
+    "updatedAt": true,
+    "userId": true,
+    "ndutSiteSiteId": true,
+    "ndutAuthCreatedBy": true,
+    "ndutAuthUpdatedBy": true
+  }
+}

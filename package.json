@@ -1,0 +1,26 @@
+{
+  "name": "ndut-cms",
+  "version": "0.6.0",
+  "description": "CMS for Ndut Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardhi/ndut-cms.git"
+  },
+  "keywords": [
+    "CMS",
+    "Ndut",
+    "Fastify",
+    "Blog",
+    "Page"
+  ],
+  "author": "Ardhi Lukianto <ardhi@lukianto.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ardhi/ndut-cms/issues"
+  },
+  "homepage": "https://github.com/ardhi/ndut-cms#readme"
+}

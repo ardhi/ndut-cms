@@ -1,0 +1,8 @@
+{
+  "/manage/blog": ["GET", "POST"],
+  "/manage/blog/:id": ["GET", "PUT", "DELETE"],
+  "/manage/blog-category": ["GET", "POST"],
+  "/manage/blog-category/:id": ["GET", "PUT", "DELETE"],
+  "/manage/blog-tag": ["GET", "POST"],
+  "/manage/blog-tag/:id": ["GET", "PUT", "DELETE"]
+}

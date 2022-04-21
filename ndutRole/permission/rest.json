@@ -1,0 +1,14 @@
+[
+  {
+    "path": ["/manage/blog", "/manage/blog/:id"],
+    "method": ["read", "create", "update", "remove"]
+  },
+  {
+    "path": ["/manage/blog-category", "/manage/blog-category/:id"],
+    "method": ["read", "create", "update", "remove"]
+  },
+  {
+    "path": ["/manage/blog-tag", "/manage/blog-tag/:id"],
+    "method": ["read", "create", "update", "remove"]
+  }
+]

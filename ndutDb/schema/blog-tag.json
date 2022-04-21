@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "tag": {
+      "type": "String",
+      "length": 255,
+      "index": true
+    }
+  },
+  "feature": {
+    "createdAt": true,
+    "updatedAt": true,
+    "userId": true,
+    "ndutSiteSiteId": true,
+    "ndutAuthCreatedBy": true,
+    "ndutAuthUpdatedBy": true
+  }
+}
