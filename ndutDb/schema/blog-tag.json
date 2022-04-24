@@ -1,9 +1,20 @@
 {
   "properties": {
-    "tag": {
+    "name": {
       "type": "String",
       "length": 255,
-      "index": true
+      "required": true
+    }
+  },
+  "indexes": {
+    "uniq": {
+      "keys": {
+        "name": 1,
+        "siteId": 1
+      },
+      "options": {
+        "unique": true
+      }
     }
   },
   "feature": {

@@ -1,16 +1,21 @@
 {
   "properties": {
-    "name": {
-      "type": "String",
-      "length": 255,
+    "blogId": {
+      "type": "Number",
+      "scale": 0,
+      "required": true
+    },
+    "tagId": {
+      "type": "Number",
+      "scale": 0,
       "required": true
     }
   },
   "indexes": {
     "uniq": {
       "keys": {
-        "name": 1,
-        "siteId": 1
+        "blogId": 1,
+        "tagId": 1
       },
       "options": {
         "unique": true
