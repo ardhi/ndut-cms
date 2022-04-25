@@ -1,0 +1,4 @@
+[
+  { "value": "DRAFT", "column": "status" },
+  { "value": "PUBLISHED", "column": "status" }
+]
