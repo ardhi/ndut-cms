@@ -18,7 +18,7 @@ module.exports = {
       delete params.where.category
       const cat = await this.ndutApi.helper.find({ model: 'CmsBlogCategory', params: { where: { name: qcat }, limit: 1 } })
       const catId = (cat.data[0] || {}).id || -1
-      params.where.categoryId = catId
+      params.where.categoryId = Number(qcat) === 0 ? 0 : catId
     }
   },
   after: async function ({ result = [] }) {
