@@ -2,8 +2,7 @@
   "properties": {
     "slug": {
       "type": "String",
-      "length": 255,
-      "index": true
+      "length": 255
     },
     "title": {
       "type": "String",
@@ -29,6 +28,17 @@
     "sourceUrl": {
       "type": "String",
       "length": 255
+    }
+  },
+  "indexes": {
+    "cmsblog_uniq": {
+      "keys": {
+        "slug": 1,
+        "siteId": 1
+      },
+      "options": {
+        "unique": true
+      }
     }
   },
   "feature": {

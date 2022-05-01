@@ -12,7 +12,7 @@
     }
   },
   "indexes": {
-    "uniq": {
+    "cmsblogtagblog_uniq": {
       "keys": {
         "blogId": 1,
         "tagId": 1

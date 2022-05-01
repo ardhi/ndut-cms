@@ -7,7 +7,7 @@
     }
   },
   "indexes": {
-    "uniq": {
+    "cmsblogcategoryuniq": {
       "keys": {
         "name": 1,
         "siteId": 1
