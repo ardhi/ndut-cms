@@ -41,13 +41,5 @@
       }
     }
   },
-  "feature": {
-    "createdAt": true,
-    "updatedAt": true,
-    "userId": true,
-    "status": true,
-    "ndutSiteSiteId": true,
-    "ndutAuthCreatedBy": true,
-    "ndutAuthUpdatedBy": true
-  }
+  "feature": ["createdAt", "updatedAt", "ndutAuthUserId", "status", "ndutSiteSiteId", "ndutAuthCreatedBy", "ndutAuthUpdatedBy"]
 }
