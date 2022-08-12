@@ -5,6 +5,7 @@ module.exports = {
   before: async function ({ body = {}, filter = {} }) {
     const { _ } = this.ndut.helper
     if (_.isEmpty(body.status)) body.status = 'DRAFT'
+    if (_.isEmpty(body.slug)) body.slug = _.kebabCase(body.title)
     if (body.category) {
       const resp = await this.ndutApi.helper.findOneOrCreate({
         model: 'CmsBlogCategory',

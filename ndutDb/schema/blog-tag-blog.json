@@ -1,13 +1,13 @@
 {
   "properties": {
     "blogId": {
-      "type": "Number",
-      "scale": 0,
+      "type": "String",
+      "length": 20,
       "required": true
     },
     "tagId": {
-      "type": "Number",
-      "scale": 0,
+      "type": "String",
+      "length": 20,
       "required": true
     }
   },

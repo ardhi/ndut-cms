@@ -18,7 +18,8 @@
       "required": true
     },
     "categoryId": {
-      "type": "Number"
+      "type": "String",
+      "length": 20
     },
     "source": {
       "type": "String",
