@@ -1,5 +1,3 @@
-const attachBlogTags = require('../../lib/attach-blog-tags')
-
 module.exports = {
   after: async function ({ model, body = {}, filter, result = {} }) {
     const { _ } = this.ndut.helper

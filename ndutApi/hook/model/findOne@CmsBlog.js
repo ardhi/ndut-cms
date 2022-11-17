@@ -1,5 +1,5 @@
-const attachBlogTags = require('../../lib/attach-blog-tags')
-const attachBlogCategory = require('../../lib/attach-blog-category')
+const attachBlogTags = require('../../../lib/attach-blog-tags')
+const attachBlogCategory = require('../../../lib/attach-blog-category')
 
 module.exports = {
   after: async function ({ result = {} }) {
